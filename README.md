@@ -7,7 +7,6 @@ PHP class for managing file uploading.
 
 ```php
 <?php include_once("path-to-library/FileModel.php") ?>
-<!DOCTYPE html>
 ```
 
 2) Instantiate the object where you want to treat it:
