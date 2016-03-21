@@ -1,4 +1,6 @@
 <?php
+  include_once("../src/FileModel.php");
+
   $file = new FileModel($_FILES["testfile"], false); // $isGallery is set to false so the uploaded will be named as the original file
   $file = new FileModel($_FILES["testfile"], true); // $isGallery is set to true so the uploaded will be named as 'file' + timestamp
   
