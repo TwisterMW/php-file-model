@@ -6,13 +6,13 @@ PHP class for managing file uploading.
 1) Include the library at top of your PHP document:
 
 ```php
-<?php include_once("path-to-library/FileModel.php") ?>
+include_once("path-to-library/FileModel.php");
 ```
 
 2) Instantiate the object where you want to treat it:
 
 ```php
-$file = new FileModel($file, $isGallery)
+$file = new FileModel($file, $isGallery);
 ```
 
 ### Attribute description
