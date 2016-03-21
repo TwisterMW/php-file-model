@@ -22,10 +22,10 @@ $file = new FileModel($file, $isGallery)
 
 ### Methods description
 - **uploadFile($destinationPath)**: Method for uploading the file and move it to desired folder
-  - $destinationPath: Folder to upload the file
+  - **$destinationPath**: Folder to upload the file
 
 - **getFileName($print = false)**: Method for get filename
-  - $print: Indicates if want to print the value. If false, the value will be returned only
+  - **$print**: Indicates if want to print the value. If false, the value will be returned only
 
 - **getFileSize($unit = null, $print = false)**
   - **$unit**: Indicates the units that you expect to recieve (b, kb, mb, gb).
