@@ -12,7 +12,7 @@ include_once("path-to-library/FileModel.php");
 2) Instantiate the object where you want to treat it:
 
 ```php
-$file = new FileModel($file, $isGallery);
+$file = new FileModel($_FILES["key-of-file"], $isGallery);
 ```
 
 ### Attribute description
@@ -27,7 +27,7 @@ $file = new FileModel($file, $isGallery);
   - **$print**: Indicates if want to print the value. If false, the value will be returned only
 
 - **getFileSize($unit = null, $print = false)**
-  - **$unit**: Indicates the units that you expect to recieve (b, kb, mb, gb).
+  - **$unit**: Indicates the units that you expect to recieve (b, kb, mb, gb). If leave this value null, it will use KB as default unit.
   - **$print**: Indicates if want to print the value. If false, the value will be returned only
 
 - **getFileType($print = false)**
